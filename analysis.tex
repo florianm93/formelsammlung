@@ -1,6 +1,24 @@
 \subsection{Integration und Differenzierung}
+	\begin{align*}
+		f'(x_0) \approx \frac{f(x_0 + h) - f(x_0 - h)}{2h} \\
+		f''(x_0) \approx \frac{f(x_0 + h) - 2f(x_0) + f(x_0 + h)}{h^2} \\
+		\text{Satz von L'Hospital	} \lim\limits_{x \to a} \frac{f(x)}{g(x)} = \lim\limits_{x \to a} \frac{f'(x)}{g'(x)} = \frac{0}{0} \text{ ~bzw.~ } \frac{\infty}{\infty} \\
+		(f^{-1})'(y) = \frac{1}{f'(x)} = \frac{1}{f'(f^{-1}(y))} \\
+		\text{Quotientenregel: } \frac{d}{dx} \frac{u(x)}{v(x)} = \frac{v(x)u'(x) - u(x)v'(x)}{v^2(x)} \\
+		\text{Kettenregel: } \frac{d}{dx} g(v(x)) = g'(v(x))v'(x) \\
+		\text{Produktregel: } \frac{d}{dx} u(x)v(x) = u(x)v'(x) + u'(x)v(x) \\
+		\text{Sumenregel: } \frac{d}{dx} f(x) + g(x) = f'(x) + g'(x) \\
+		F'(x) = \frac{d}{dx} \int\limits_{g(x)}^{h(x)} f(x,t) dt = f(x, h(x))h(x) - f(x,g(x))g(x) + \int\limits_{g(x)}^{h(x)} \frac{d f(x,t)}{d} dt \\
+		\int \frac{f'(x)}{f(x)} = ln | f(x) | + c \\
+		\int g'(x)f(g(x)) dx = \int f(u) du \\
+		\frac{d}{dx} \frac{1}{x} = \frac{-1}{x^2} \\
+		\int u(x)v'(x) dx = u(x)v(x) - \int u'(x)v(x) dx
+	\end{align*}
 
 \subsection{Additionstheorme \textit{sin, cos, tan}}
+	\begin{align*}
+		e^{ix} = cos(x) + i sin(x)
+	\end{align*}
 
 \subsection{Rotationsk"orper}
 
@@ -28,3 +46,4 @@
 		\end{align}
 
 \subsection{Komplexe Zahlen}
+	
